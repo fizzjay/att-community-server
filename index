@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The ATT Community Server Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    background: #4a3524;
+    color: #e8d9b5;
+    font-family: 'IM Fell English', serif;
+    text-align: center;
+    padding: 90px 20px;
+  }
+
+  h1 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 64px;
+    line-height: 1.25;
+    margin: 0 0 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #f0e2bd;
+    text-shadow:
+      1px 1px 0 #2b1c10,
+      2px 2px 0 #2b1c10,
+      3px 3px 0 #1a1109,
+      0 0 18px rgba(0,0,0,0.5);
+  }
+
+  h1 .cap {
+    font-size: 90px;
+    float: none;
+  }
+
+  hr {
+    width: 260px;
+    border: none;
+    border-top: 1px solid #a8845a;
+    margin: 30px auto;
+  }
+
+  p.tag {
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #c9b285;
+    margin: 0 0 50px;
+  }
+
+  a.link {
+    color: #f0e2bd;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: 1px solid #a8845a;
+    padding: 12px 30px;
+  }
+
+  a.link:hover {
+    background: #a8845a;
+    color: #2b1c10;
+  }
+</style>
+</head>
+<body>
+
+  <h1><span class="cap">T</span>he ATT Community<br>Server Project</h1>
+  <hr>
+  <p class="tag">the future of A Township Tale</p>
+  <br>
+  <a class="link" href="https://discord.gg/xsWpp6P2eJ">Join the Discord</a>
+
+</body>
+</html>
