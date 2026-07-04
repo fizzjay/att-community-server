@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The ATT Community Server Project</title>
+<title>Announcements - The ATT Community Server Project</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
@@ -35,11 +35,6 @@
       0 0 18px rgba(0,0,0,0.5);
   }
 
-  h1 .cap {
-    font-size: 90px;
-    float: none;
-  }
-
   hr {
     width: 260px;
     border: none;
@@ -55,27 +50,12 @@
     margin: 0 0 50px;
   }
 
-  a.link {
-    color: #f0e2bd;
-    font-family: 'IM Fell English SC', serif;
-    font-size: 22px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border: 1px solid #a8845a;
-    padding: 12px 30px;
-  }
-
-  a.link:hover {
-    background: #a8845a;
-    color: #2b1c10;
-  }
-
   nav.site-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 14px;
-    margin: 40px 0 10px;
+    margin: 40px 0 60px;
   }
 
   nav.site-nav a {
@@ -93,24 +73,68 @@
     background: #a8845a;
     color: #2b1c10;
   }
+
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .post {
+    border: 1px solid #a8845a;
+    background: rgba(0,0,0,0.15);
+    padding: 20px 24px;
+    margin-bottom: 24px;
+  }
+
+  .post h2 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #f0e2bd;
+    margin: 0 0 12px;
+  }
+
+  .post ul {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 24px;
+  }
+
+  .post li {
+    margin-bottom: 8px;
+  }
 </style>
 </head>
 <body>
 
-  <h1><span class="cap">T</span>he ATT Community<br>Server Project</h1>
+  <h1>Announcements</h1>
   <hr>
-  <p class="tag">the future of A Township Tale</p>
+  <p class="tag">the latest from the project</p>
 
   <nav class="site-nav">
-    <a href="index.html" class="active">Home</a>
+    <a href="index.html">Home</a>
     <a href="team.html">Meet the Team</a>
     <a href="info.html">Game Info</a>
     <a href="faq.html">FAQ</a>
-    <a href="announcements.html">Announcements</a>
+    <a href="announcements.html" class="active">Announcements</a>
   </nav>
 
-  <br>
-  <a class="link" href="https://discord.gg/xsWpp6P2eJ">Join the Discord</a>
+  <div class="content">
+
+    <div class="post">
+      <h2>Server Hosting Prototype Works</h2>
+      <ul>
+        <li>Screenshot is from two accounts connected over the internet (server's in the USA, screenshot from AUS). Unmodded ATT client, latest version.</li>
+        <li>We can't announce exactly when we will be able to do a public playtest, but it's coming up soon.</li>
+        <li>Applications for the first playtest are now available in apply-for-playtest📄 — only a few people will be in the first one just to keep it sane.</li>
+        <li>Applications close in up to 24hrs, might be cut short.</li>
+      </ul>
+    </div>
+
+  </div>
 
 </body>
 </html>
